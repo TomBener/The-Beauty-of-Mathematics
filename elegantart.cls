@@ -65,6 +65,8 @@
 \RequirePackage{indentfirst,comment}
 \setlength\parindent{2em}
 
+\RequirePackage{amsmath,mathrsfs,amsfonts,amssymb}
+
 % fontsetting
 \ifdefstring{\ELEGANT@math}{mtpro2}{
 \let\Bbbk\relax
@@ -74,9 +76,9 @@
 \PassOptionsToPackage{no-math}{fontspec}
 \ifdefstring{\ELEGANT@lang}{cn}{
 \RequirePackage[UTF8]{ctex}
-\setCJKmainfont[BoldFont=SourceHanSerifSC-Bold,
-				ItalicFont=KaiTi]
-				{SourceHanSerifSC-Regular}
+%\setCJKmainfont[BoldFont=SourceHanSerifSC-Bold,
+				%ItalicFont=KaiTi]
+				%{SourceHanSerifSC-Regular}
 }
 
 \ctexset{today = small}
@@ -237,7 +239,6 @@
 % 常用宏包
 \linespread{1.3}
 \RequirePackage{graphicx}
-\RequirePackage{amsmath,mathrsfs,amsfonts,amssymb}
 \RequirePackage{booktabs}
 \RequirePackage{multicol}
 \RequirePackage{xcolor}
