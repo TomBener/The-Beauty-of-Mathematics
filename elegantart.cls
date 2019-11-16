@@ -65,13 +65,13 @@
 \RequirePackage{indentfirst,comment}
 \setlength\parindent{2em}
 
-\RequirePackage{amsmath,mathrsfs,amsfonts,amssymb}
-
 % fontsetting
 \ifdefstring{\ELEGANT@math}{mtpro2}{
 \let\Bbbk\relax
 \RequirePackage[lite]{mtpro2}
 }{\relax}
+
+\RequirePackage{amsmath,mathrsfs,amsfonts,amssymb}
 
 \PassOptionsToPackage{no-math}{fontspec}
 \ifdefstring{\ELEGANT@lang}{cn}{
@@ -247,6 +247,7 @@
 \RequirePackage{dashrule}
 \RequirePackage{pdfpages}
 \RequirePackage{textgreek}
+\RequirePackage{float}
 
 % 中文结构名字
 \ifdefstring{\ELEGANT@lang}{cn}{
@@ -257,7 +258,7 @@
 \renewcommand{\thepart}{第\zhnumber{\arabic{part}}部分}
 \renewcommand{\listfigurename}{插图目录}
 \renewcommand{\listtablename}{表格目录}
-\renewcommand{\refname}{\S \,\, 参考资料}
+\renewcommand{\refname}{\S \,\, 参考文献}
 \renewcommand{\appendixname}{附录}
 \renewcommand{\indexname}{索\hspace{2em}引}
 \newcommand\figref[1]{\textbf{图}~\ref{#1}}
@@ -279,7 +280,7 @@
 
 \RequirePackage{tikz}
 \usetikzlibrary{backgrounds,calc,shadows}
-\usepackage[object=vectorian]{pgfornament}%
+\usepackage[object=vectorian]{pgfornament}
 
 \RequirePackage{tikzlings}
 \tikzset{/thing/.cd,
@@ -402,7 +403,7 @@
 }{thmstyle}{thm}
 
 \newtcbtheorem[auto counter]{proposition}{
-	\ifdefstring{\ELEGANT@lang}{en}{Proposition}{命题}
+	\ifdefstring{\ELEGANT@lang}{en}{Proposition}{打油诗}
 }{propstyle}{pro}
 
 \newtcbtheorem[auto counter]{corollary}{
@@ -460,7 +461,7 @@
 \newtheorem{ecorollary}{\ifdefstring{\ELEGANT@lang}{en}{Corollary}{推论}}
 
 \theoremstyle{eprostyle}
-\newtheorem{eproposition}{\ifdefstring{\ELEGANT@lang}{en}{Proposition}{命题}}
+\newtheorem{eproposition}{\ifdefstring{\ELEGANT@lang}{en}{Proposition}{打油诗}}
 
 \newenvironment{theorem}[2]
   {\ifstrempty{#1}{\etheorem}{\etheorem[#1]}\ifstrempty{#2}{}{\label{thm:#2}}}
