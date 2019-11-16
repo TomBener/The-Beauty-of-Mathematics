@@ -76,9 +76,9 @@
 \PassOptionsToPackage{no-math}{fontspec}
 \ifdefstring{\ELEGANT@lang}{cn}{
 \RequirePackage[UTF8]{ctex}
-%\setCJKmainfont[BoldFont=SourceHanSerifSC-Bold,
-				%ItalicFont=KaiTi]
-				%{SourceHanSerifSC-Regular}
+\setCJKmainfont[BoldFont=SourceHanSerifSC-Bold,
+				ItalicFont=KaiTi]
+				{SourceHanSerifSC-Regular}
 }
 
 \ctexset{today = small}
