@@ -258,7 +258,7 @@
 \renewcommand{\thepart}{第\zhnumber{\arabic{part}}部分}
 \renewcommand{\listfigurename}{插图目录}
 \renewcommand{\listtablename}{表格目录}
-\renewcommand{\refname}{\S \,\, 参考文献}
+\renewcommand{\refname}{\S \,\, 参考资料}
 \renewcommand{\appendixname}{附录}
 \renewcommand{\indexname}{索\hspace{2em}引}
 \newcommand\figref[1]{\textbf{图}~\ref{#1}}
