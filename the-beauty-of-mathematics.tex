@@ -24,6 +24,7 @@
 \item 文中选取了一些非常优美的数学公式，并对部分公式加以证明，以此来领略数学的美妙。数学是晦涩难懂的，但又是美丽动人的，实在是难以用言语表达它的美，让人不由感慨数学真是上帝的杰作！
 \end{introduction}
 
+\vspace{1cm}
 \begin{center}
 	\Large\bfseries\color{structurecolor} 目\hspace{0.5em}录 \\[5pt]
 	\base{structurecolor}{87}
@@ -74,10 +75,12 @@ $$
 所以区间 $[1, n+1]$ 上 $n$ 个小矩形面积之和为：
 \begin{align*}
    \sum_{k=1}^{n} k^{2}&=\int_{1}^{n+1} x^{2} \md x-\sum_{k=1}^{n}\left(k+\frac{1}{3}\right)\\
-   &=\left.\frac{1}{3} x^{3}\right|_{1} ^{n+1}-\sum_{k=1}^{n}\left(k+\frac{1}{3}\right)\\
    &=\frac{1}{3}(n+1)^{3}-\frac{1}{3}-\sum_{k=1}^{n} k-\sum_{k=1}^{n} \frac{1}{3}\\
    &=\frac{n(n+1)(2 n+1)}{6}
    \end{align*}
+
+   证毕.
+
 \end{definition}
 
 
@@ -100,6 +103,9 @@ $$
 化简整理得到：
 $$
 1^{3}+2^{3}+\dots+n^{3}=\left(\frac{n(n+1)}{2}\right)^{2}$$
+
+证毕.
+
 \end{definition}
 
 \noindent 自然数 $n$ 次幂和公式的规律如下：
@@ -111,7 +117,7 @@ $$
 
 \section{$\pi$ 和 $\me$}
 
-众所周知，$\pi$ 表示圆周率，是最著名的一个无理数。在社交媒体上，每年圆周率日\footnote{圆周率日（Pi Day）是庆祝圆周率 $\pi$ 的特别日子，日期是 3 月 14 日，由圆周率最常用的近似值 3.14 而来。美国麻省理工学院首先倡议将 3 月 14 日定为国家圆周率日（National Pi Day）。2009 年美国众议院正式将每年的 3 月 14 号设定为“圆周率日”（Pi day）。3 月 14 日也是阿尔伯特·爱因斯坦的生日，卡尔·马克思和史蒂芬·霍金的忌日以及白色情人节。}之际，人们总会分享关于 $\pi$ 的名言，其中 Lisa Hoffman（丽莎·霍夫曼）的这句算是最为著名的之一了：
+众所周知，$\pi$ 表示圆周率，是最著名的一个无理数。在社交媒体上，每年圆周率日\footnote{圆周率日（Pi Day）是庆祝圆周率 $\pi$ 的特别日子，日期是 3 月 14 日，由圆周率最常用的近似值 3.14 而来。美国麻省理工学院首先倡议将 3 月 14 日定为国家圆周率日（National Pi Day）。2009 年美国众议院正式将每年的 3 月 14 号设定为“圆周率日”（Pi Day）。3 月 14 日也是阿尔伯特·爱因斯坦的生日，卡尔·马克思和史蒂芬·霍金的忌日以及白色情人节。}之际，人们总会分享关于 $\pi$ 的名言，其中 Lisa Hoffman（丽莎·霍夫曼）的这句算是最为著名的之一了：
 \vspace{5pt}
 
 \begin{tcolorbox}[saying]
@@ -125,13 +131,13 @@ Love is like pi --- natural, irrational, and very important.
 \vspace{5pt}
 
 \begin{tcolorbox}[saying]
-Love is like pi - irrational and never-ending.
+Love is like pi --- irrational and never-ending.
 \vspace{5pt}
 
 爱情就像 $\pi$ 一样 --- 无理并且无穷无尽。
 \end{tcolorbox}
 
-$\pi$ 有多“无理且无穷无尽”呢？下面是“$\pi$ 的足迹”\footnote{不够直观？前往{\href{https://nbremer.github.io/freshdatashapes/\#/pi-walk}{这里}}查看 $\pi$ 的动态小数位数。}。
+$\pi$ 有多“无理且无穷无尽”呢？下图是“$\pi$ 的足迹”\footnote{不够直观？前往{\href{https://nbremer.github.io/freshdatashapes/\#/pi-walk}{这里}}查看 $\pi$ 的动态小数位数。}。
 
 \begin{figure}[h]
 	\centering
@@ -139,7 +145,7 @@ $\pi$ 有多“无理且无穷无尽”呢？下面是“$\pi$ 的足迹”\foot
 	\caption{100000 位小数的 $\pi$}
 \end{figure}
 
-\noindent 法国数学家弗朗索瓦·勒·利奧奈（Fran{\c{c}}ois Le Lionnais）\cite{le2004}曾说：
+\noindent 法国数学家弗朗索瓦·勒·利奧奈（Fran{\c{c}}ois Le Lionnais）曾说：
 \vspace{5pt}
 
 \begin{tcolorbox}[saying]
@@ -189,7 +195,7 @@ $\pi$ 有多“无理且无穷无尽”呢？下面是“$\pi$ 的足迹”\foot
 \caption{指数函数与对数函数互为反函数，图像关于直线 $y=x$ 对称}
 \end{figure}
 
-此处不禁想起老何的两首打油诗：
+画了上面这幅图，我不禁想起了老何的两首打油诗：
 \begin{proposition}{指数函数}{fki}
 \centering
 	一刀冲天刀未残，接近横轴趋无限。
@@ -204,7 +210,7 @@ $\pi$ 有多“无理且无穷无尽”呢？下面是“$\pi$ 的足迹”\foot
 	菊花旋转九十度，指对互为反函数。
 \end{proposition}
 
-$\pi$ 和 $\mathrm{e}$ 作为数学界的“无理双雄”，有着千丝万缕的关系，其中，最好吃的是下图这个关系 😋。点击\href{https://tomben.me/files/pdf/pi+e=pie.pdf}{此链接}可以下载下图的 PDF 版本。
+$\pi$ 和 $\mathrm{e}$ 作为数学界的“无理双雄”，有着千丝万缕的关系，其中，最好吃的是下图这个关系 😋。点击\href{https://tomben.me/files/pdf/pi+e=pie.pdf}{这里}可下载此图的 PDF 版本。
 
 \begin{center}
 	\begin{tikzpicture}
@@ -226,7 +232,7 @@ $\pi$ 和 $\mathrm{e}$ 作为数学界的“无理双雄”，有着千丝万缕
 
 公式 \eqref{thm:olj} 右边的展式是一个无穷级数，被称为莱布尼茨（Leibniz）级数，这个级数收敛到 $\pi/4$。它通常也被称为格雷戈里-莱布尼茨级数，用以纪念与莱布尼茨同时代的天文学家兼数学家詹姆斯·格雷戈里。
 
-当代有名的数论大家塞尔贝格\footnote{塞尔贝格，挪威裔美国籍数学家。由于他所做的关于黎曼 \textzeta 函数零点分布问题的出色成果，以及对素数定理的初等证明，于 1960 年荣获 \href{https://www.mathunion.org/imu-awards/fields-medal}{Fields 奖}，时年 33 岁。他还于 1986 年荣获 \href{[Wolf 数学奖](http://www.wolffund.org.il/index.php?dir=site&page=winners&cs=221}{Wolf 数学奖}。}（Atle Selberg）曾经说：
+当代有名的数论大家塞尔贝格\footnote{塞尔贝格，挪威裔美国籍数学家。由于他所做的关于黎曼 \textzeta 函数零点分布问题的出色成果，以及对素数定理的初等证明，于 1950 年荣获 \href{https://www.mathunion.org/imu-awards/fields-medal}{Fields 奖}，时年 33 岁。他还于 1986 年荣获 \href{[Wolf 数学奖](http://www.wolffund.org.il/index.php?dir=site&page=winners&cs=221}{Wolf 数学奖}\,。}（Atle Selberg）曾说：
 \vspace{8pt}
 
 \begin{tcolorbox}[saying]
@@ -263,10 +269,13 @@ $$
 \end{theorem}
 
 巴塞尔（Basel）城是瑞士的第三大城市，也是欧拉和伯努利家族的故乡。巴塞尔问题是数学史上非常著名的问题，至今还未被证明的黎曼猜想就是在巴塞尔问题的研究基础上提出的，历史上人们对巴塞尔问题有过许多研究，其中最著名的当属大数学家欧拉（Euler）的证明。法国物理学家阿拉果曾如是评价欧拉：
+\vspace{8pt}
 
 \begin{tcolorbox}[saying]
 欧拉计算时毫不费力，就像人呼吸、或者鹰在风中保持平衡一样。
 \end{tcolorbox}
+
+以下就是欧拉“毫不费力”的证明～
 
 \begin{definition}{巴塞尔问题}{mhu}
 	正弦函数的泰勒级数展开式为：
@@ -279,7 +288,7 @@ $$
 \frac{\sin x}{x}=1-\frac{x^{2}}{3 !}+\frac{x^{4}}{5 !}-\frac{x^{6}}{7 !}+\cdots
 $$
 
-当 $x=n\pi$ 时，$\frac{\sin x}{x}=0$，我们假设可以把这个无穷级数表示为线性因子的乘积\footnote{欧拉没有严格证明这个无穷积，直到魏尔斯特拉斯得到了他著名的「魏尔斯特拉斯分解定理」（Weierstrass factorization theorem）。}：
+当 $x=n\pi$ 时，$\frac{\sin x}{x}=0$，我们假设可以把这个无穷级数表示为线性因子的乘积\footnote{欧拉没有严格证明这个无穷积，直到魏尔斯特拉斯得到了他著名的“魏尔斯特拉斯分解定理”（Weierstrass factorization theorem）。}：
 \begin{align*} \frac{\sin x}{x} &=\left(1-\frac{x}{\pi}\right)\left(1+\frac{x}{\pi}\right)\left(1-\frac{x}{2 \pi}\right)\left(1+\frac{x}{2 \pi}\right)\left(1-\frac{x}{3 \pi}\right)\left(1+\frac{x}{3 \pi}\right) \cdots \\ &=\left(1-\frac{x^{2}}{\pi^{2}}\right)\left(1-\frac{x^{2}}{4 \pi^{2}}\right)\left(1-\frac{x^{2}}{9 \pi^{2}}\right) \cdots 
 \end{align*}
 
@@ -305,8 +314,7 @@ $$
 
 证毕.
 \end{definition}
-
-关于巴塞尔问题的更多证明方法，可以阅读 \href{https://www.cnblogs.com/misaka01034/p/BaselProof.html}{巴塞尔问题（Basel problem）的多种解法}，或其 \href{https://tomben.me/files/pdf/23-proofs-of-basel-problem.pdf}{PDF 文件}。
+\vspace{10pt}
 
 \section{欧拉公式}
 
@@ -316,16 +324,16 @@ $$
 	\end{equation}
    \vspace{-15pt}
 \end{theorem}
-\vspace{10pt}
+\clearpage
 
 欧拉公式被称作“上帝公式”或者“最伟大的数学公式”，因为它体现了数学的高度统一性，将圆周率 $\pi$，自然对数的底数 $\me$，以及 $\mi$，$1$，$0$ 这5个常数如此简洁地统一于一个公式中。事实上，公式 \eqref{thm:euler} 是公式：
-\begin{equation}\label{ohy}
+\begin{theorem}{欧拉公式}{eukr}
+	\begin{equation}\label{ohy}
 	\me^{\mi x}=\cos x+\mi \sin x
 \end{equation}
+\end{theorem}
 
-在 $x=\pi$ 时的特例。
-
-欧拉公式虽然被称为“最伟大的公式”，但证明它却并不困难，掌握高等数学中泰勒级数的相关知识即可。
+在 $x=\pi$ 时的特例。欧拉公式虽然被称为“最伟大的公式”，但证明它却并不困难，掌握高等数学中泰勒级数的相关知识即可。
 
 \begin{theorem}{欧拉公式}{dbu}
 	函数 $\me^x,\ \cos x, \ \sin x $ 的泰勒级数形式分别为：
@@ -351,6 +359,10 @@ $$
 
 证毕.
 \end{theorem}
+\vspace{15pt}
+
+关于巴塞尔问题的更多证明方法，可以阅读 \href{https://www.cnblogs.com/misaka01034/p/BaselProof.html}{巴塞尔问题（Basel problem）的多种解法}，或其 \href{https://tomben.me/files/pdf/23-proofs-of-basel-problem.pdf}{PDF 文件}。
+
 
 \section{其他}
 
@@ -360,13 +372,13 @@ $$
 	\begin{equation}
 		3=\sqrt{1+2 \sqrt{1+3 \sqrt{1+4 \sqrt{1+5 \sqrt{1+\cdots}}}}}
 	\end{equation}
+\end{theorem}
 
 	斯里尼瓦瑟·拉马努金（Srinivasa Ramanujan, 1887－1920）是一位印度天才数学家，是亚洲史上最著名的数学家之一。尽管他没有受过正规的高等数学教育，但却沉迷数论，尤爱研究 $\pi$、质数等数学常数的求和公式，以及整数分拆。惯以直觉导出公式，不喜作证明，而他的理论在后来往往被证明是正确的。
 
 	拉马努金一生成就颇丰，提出过很多天才般的等式。可惜天妒英才，健康问题困扰了拉马努金一生，他去世时年仅 33 岁。
 	
 	2013 年 11 月 4 日，\href{https://www.weibo.com/1894798092/Ah8QTrRae}{广州恒大微博}曾用拉马努金恒等式预测本队与韩国首尔 FC 亚冠决赛的得分，而对手韩国首尔 FC 的得分则是欧拉公式等号右边的结果 0，即比分为 3-0。最终，广州恒大与首尔 FC 两回合战平 3-3，凭借客场进球制度夺得冠军。
-\end{theorem}
 
 \subsection{欧拉常数}
 
@@ -374,10 +386,13 @@ $$
 \begin{equation}
 		\gamma=\lim _{n \rightarrow \infty}\left( 1+\frac{1}{2}+\frac{1}{3}+\cdots+\frac{1}{n} -\ln n\right)=0.57721566490\cdots
 \end{equation}
+\end{theorem}
+
 
 欧拉常数是欧拉在 1735 年发现的一个常数，欧拉曾经使用 $C$ 作为它的符号，并计算出了它的前 6 位小数，意大利数学家洛伦佐·马斯刻若尼引入了 $\gamma$ 作为这个常数的符号。目前尚不知道该常数是否为有理数。以下是欧拉常数的一些常见积分形式：
 
-\begin{align*} 
+\begin{definition}{欧拉常数常见积分形式}{hjt}
+	\begin{align*} 
 	\gamma &=-\int_{0}^{\infty} \me^{-x} \ln x \md x=\int_{\infty}^{0} \me^{-x} \ln x \md x=-\int_{0}^{1} \ln \ln \frac{1}{x} \md x \\ &=\int_{0}^{\infty}\left(\frac{1}{1-\me^{-x}}-\frac{1}{x}\right) \me^{-x} \md x \\ &=\int_{0}^{\infty} \frac{1}{x}\left(\frac{1}{1+x}-\me^{-x}\right) \md x
 	\end{align*}
 	
@@ -393,9 +408,9 @@ $$
 		\gamma=\int_{0}^{1} \int_{0}^{1} \frac{x-1}{(1-x y) \ln (x y)} \md x \md y=\sum_{n=1}^{\infty}\left(\frac{1}{n}-\ln\left( \frac{n+1}{n}\right)\right)
 	\end{equation*}
 
-	借助欧拉常数，可以证明
+	借助欧拉常数，可以轻松证明：
 	
-	$$\displaystyle \lim _{n \rightarrow \infty}\left(\frac{1}{n+1}+\frac{1}{n+2}+\cdots+\frac{1}{2 n}\right)=\ln 2$$
+	$$\lim _{n \rightarrow \infty}\left(\frac{1}{n+1}+\frac{1}{n+2}+\cdots+\frac{1}{2 n}\right)=\ln 2$$
 
 	\textbf{证}：记
 	$$a_{n}=\frac{1}{n+1}+\frac{1}{n+2}+\cdots+\frac{1}{2 n}$$
@@ -411,8 +426,7 @@ $$
 	$$\lim _{n \rightarrow \infty} a_{n}=\lim _{n \rightarrow \infty}\left(\frac{1}{n+1}+\frac{1}{n+2}+\cdots+\frac{1}{2 n}\right)=\ln 2$$
 	
 	证毕.
-
-\end{theorem}
+\end{definition}
 
 
 \subsection{梅钦公式}
@@ -443,21 +457,21 @@ $$
 
 \subsection{主席函数}
 
-“主席函数”这个名字是我起的，是利用三大数学软件之一的 Mathematica
-将毛主席的形象用非常复杂的参数方程表示出来。如下图所示，毛泽东的伟岸形象在这里不是普通意义上“画出来”的，而是被视为函数图像（Plot），用一串相当复杂的参数方程表示出来的。
+“主席函数”这个名字是我起的，是利用三大数学软件之一的 Mathematica，将毛主席的形象用非常复杂的参数方程表示出来。如下图所示，毛泽东的伟岸形象在这里不是普通意义上“画出来”的，而是被视为函数图像（Plot），用一串相当复杂的参数方程表示出来的。
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=11cm]{mao-curve.jpg}
+\caption{在手机上用 WolframAlpha 画“主席函数”}
 \end{figure}
 
-想要知道这个参数方程有多复杂，可前往\href{https://www.wolframalpha.com/input/?i=Mao+curve}{WolframAlpha 网页版}查看。当然，你也可以玩玩其他名人的形象，都可以这样表示。如果说前面的公式都体现了一种数学的简介美，那么“主席函数”就体现了数学无所不能的美！
+想要知道这个参数方程有多复杂，可前往 \href{https://www.wolframalpha.com/input/?i=Mao+curve}{WolframAlpha 网页版}查看。当然，你也可以玩玩其他名人的形象，都可以这样表示。如果说前面的公式都体现了一种数学的简介美，那么“主席函数”就体现了数学无所不能的美！
 
 \nocite{*}
 \phantomsection
 \addcontentsline{toc}{section}{\S \;\;\, 参考资料}
 \bibliography{reference}
-\vspace{1.5cm}
+%\vspace{1.5cm}
 
 %\centerline{\textcolor{red!50!blue}{\bfseries\Large 未完待续\,...}}
 
